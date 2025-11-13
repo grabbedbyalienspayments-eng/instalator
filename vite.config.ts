@@ -93,9 +93,3 @@ export default defineConfig({
   },
   publicDir: 'public'
 })
-build: {
-    sourcemap: false,
-    outDir: 'dist',
-    assetsDir: 'assets',
-    minify: 'esbuild',
-    rollupOptions: {
